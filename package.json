@@ -1,0 +1,18 @@
+{
+  "name": "riot-3d",
+  "version": "0.0.1",
+  "description": "A Software Based 3D Renderer In TypeScript.",
+  "main": "./main.js",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" \"electron .\"",
+    "build": "tsc && npx electron-packager . --overwrite"
+  },
+  "author": "Ryan Theriot",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "electron": "^3.0.9",
+    "electron-packager": "^12.2.0",
+    "electron-reload": "^1.3.0"
+  }
+}
