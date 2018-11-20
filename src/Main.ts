@@ -52,4 +52,4 @@ function drawLine(canvasContext: CanvasRenderingContext2D, x1: number, y1: numbe
   }
 }
 
-drawLine(ctx, 500, 100, 100, 200, 255, 155, 20, 255);
+drawLine(ctx, 150, 150, 200, 200, 255, 155, 20, 255);

@@ -1,3 +1,4 @@
 /dist/*
 /node_modules/*
 /riot-3d-linux-x64/*
+/riot-3d-darwin-x64/*

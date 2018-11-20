@@ -54,6 +54,7 @@
   },
   "exclude": [
     "./riot-3d-linux-x64",
+    "./riot-3d-darwin-x64",
     "build",
     "node_modules",
     "__tests__"
